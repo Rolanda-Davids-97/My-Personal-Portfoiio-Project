@@ -1,2 +1,54 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
+body {
+  background-color: #f2bed1;
+}
+h1,
+h2,
+h3 {
+  color: whitesmoke;
+  margin-left: 80px;
+}
+h3,
+h2 {
+  font-family: "Poppins', sans-serif";
+}
+
+h1 {
+  font-family: "'Playfair Display', serif";
+  font-size: 95px;
+  font-weight: bolder;
+  line-height: 1;
+  padding: auto;
+}
+h2 {
+  font-weight: normal;
+  font-size: 24px;
+  padding-bottom: 120px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 200px;
+}
+
+.btn-branding {
+  background: #e4d0d0;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+#hire {
+  margin-left: 300px;
+}
+.hire:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+#project {
+  margin-left: 40px;
+}
+.project:hover {
+  background-color: white;
+  color: black;
+}
