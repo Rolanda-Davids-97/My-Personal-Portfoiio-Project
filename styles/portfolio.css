@@ -3,6 +3,12 @@ font-family: 'Poppins', sans-serif;*/
 body {
   background-color: #eadbc8;
 }
+.hero {
+  @media (max-width: 900px) {
+    padding: 80px 20px;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -20,18 +26,18 @@ h1 {
   font-weight: bolder;
   line-height: 1;
   padding: auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 h2 {
   font-weight: normal;
   font-size: 24px;
   padding-bottom: 110px;
-  margin-top: -70px;
+  margin-top: -20px;
 }
 h3 {
   font-weight: bold;
-  font-size: 40px;
-  padding-top: 150px;
+  font-size: 48px;
+  padding-top: 200px;
 }
 
 .btn-branding {
