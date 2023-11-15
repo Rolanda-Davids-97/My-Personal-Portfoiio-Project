@@ -3,11 +3,6 @@ font-family: 'Poppins', sans-serif;*/
 body {
   background-color: #eadbc8;
 }
-.hero {
-  @media (max-width: 900px) {
-    padding: 80px 20px;
-  }
-}
 
 h1,
 h2,
@@ -47,7 +42,9 @@ h3 {
   transition: 3s ease-in-out;
   text-decoration: none;
 }
-
+#button-links {
+  display: inline-flex;
+}
 #hire {
   margin-left: 300px;
 }
@@ -62,6 +59,7 @@ h3 {
   background-color: white;
   color: black;
 }
+
 .image {
   width: 30px;
   height: 60px;
@@ -74,4 +72,30 @@ h3 {
   right: 1px;
   margin-top: -400px;
   margin-right: 70px;
+}
+@media (max-width: 600px) {
+  h1 {
+    text-align: left;
+    font-size: 43px;
+    padding-bottom: 20px;
+  }
+  h2 {
+    text-align: left;
+    font-size: 20px;
+  }
+  h3 {
+    padding-top: 30px;
+  }
+
+  #hire {
+    margin-left: 200px;
+    margin-bottom: 30px;
+  }
+  #project {
+    margin-left: 120px;
+  }
+
+  .image {
+    display: none;
+  }
 }
