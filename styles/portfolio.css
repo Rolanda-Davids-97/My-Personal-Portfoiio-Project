@@ -73,6 +73,26 @@ h3 {
   margin-top: -400px;
   margin-right: 70px;
 }
+#myself {
+  height: 650px;
+  margin-top: 300px;
+  padding-left: 100px;
+  width: auto;
+}
+#about-me {
+  margin-top: 180px;
+}
+#who-am-i {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+#about-paragraph {
+  padding-top: 1px;
+  padding-right: 100px;
+  line-height: 1.28rem;
+  font-size: 14px;
+  font-family: "Poppins', sans-serif";
+}
 @media (max-width: 600px) {
   h1 {
     text-align: left;
