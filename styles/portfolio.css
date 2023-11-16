@@ -1,6 +1,6 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
-body {
+#index-body {
   background-color: #eadbc8;
 }
 
@@ -73,12 +73,14 @@ h3 {
   margin-top: -400px;
   margin-right: 70px;
 }
-
+#about-body {
+  background-color: #b0926a;
+}
 #myself {
   height: 630px;
   margin-top: 200px;
   padding: auto;
-  width: auto;
+  width: 500px;
 }
 #about-me {
   margin-top: 100px;
@@ -131,5 +133,9 @@ h3 {
   }
   #myself {
     margin-top: 50px;
+    margin-left: 70px;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
   }
 }
