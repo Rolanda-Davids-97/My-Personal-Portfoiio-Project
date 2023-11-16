@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)file:///Users/owner/Desktop/shecodes%20HW%20and%20Projects/Vanilla-Weather-App/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Weather App</title>
+    <link href="./Vanilla Weather App Image_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Vanilla Weather App Image_files/css">
+
+    <script src="./Vanilla Weather App Image_files/axios.min.js"></script>
+    <link rel="stylesheet" href="./Vanilla Weather App Image_files/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="Weather-App-wrapper">
+        <div class="Weather-App">
+          <form id="search-form">
+            <div class="row algin-items-start">
+              <div class="col-9">
+                <input type="search" placeholder="Enter your city" class="form-control shadow-sm" autocomplete="off" autofocus="on" id="city-input">
+              </div>
+
+              <div class="col-3">
+                <input type="submit" value="Search" class="form-control bnt bnt-primary shadow-sm w-100">
+              </div>
+            </div>
+          </form>
+          <br>
+
+          <h1 class="font-effect-outline" id="city">Johannesburg</h1>
+          <h2 id="date">Thursday 16 Nov 20:45 2023</h2>
+          <h3 id="description">overcast clouds</h3>
+          <br>
+          <div class="row">
+            <div class="col-4">
+              <div class="clearflex weather-temperature">
+                <img src="./Vanilla Weather App Image_files/broken-clouds-night.png" alt="overcast clouds" id="icon" class="float-left" width="50px">
+
+                <strong id="temperature">19</strong>
+                <span class="units">
+                  <a href="file:///Users/owner/Desktop/shecodes%20HW%20and%20Projects/Vanilla-Weather-App/index.html#" id="celsius-link" class="active">°C</a> |
+                  <a href="file:///Users/owner/Desktop/shecodes%20HW%20and%20Projects/Vanilla-Weather-App/index.html#" id="fahrenheit-link" class="active"> °F</a>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <ul>
+                <li>humidity: <span id="humidity">62</span>%</li>
+                <li>wind: <span id="wind">2</span>km/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p>This week</p>
+        <hr>
+        <div class="weather-forecast" id="forecast"><div class="row"><div class="col-2">
+              <strong class="weather-forecast-days">Thursday </strong> <br>
+              <img src="./Vanilla Weather App Image_files/rain-day.png" alt="" id="icon" class="float-left" width="46px">
+              <br>
+              <span class="weather-forecast-temperature-max">27°c</span>
+              <br>
+              <span class="weather-forecast-temperature-min">15°c</span>
+              <br>
+              </div><div class="col-2">
+              <strong class="weather-forecast-days">Friday </strong> <br>
+              <img src="./Vanilla Weather App Image_files/rain-day.png" alt="" id="icon" class="float-left" width="46px">
+              <br>
+              <span class="weather-forecast-temperature-max">25°c</span>
+              <br>
+              <span class="weather-forecast-temperature-min">19°c</span>
+              <br>
+              </div><div class="col-2">
+              <strong class="weather-forecast-days">Saturday </strong> <br>
+              <img src="./Vanilla Weather App Image_files/rain-day.png" alt="" id="icon" class="float-left" width="46px">
+              <br>
+              <span class="weather-forecast-temperature-max">29°c</span>
+              <br>
+              <span class="weather-forecast-temperature-min">18°c</span>
+              <br>
+              </div><div class="col-2">
+              <strong class="weather-forecast-days">Sunday </strong> <br>
+              <img src="./Vanilla Weather App Image_files/rain-day.png" alt="" id="icon" class="float-left" width="46px">
+              <br>
+              <span class="weather-forecast-temperature-max">31°c</span>
+              <br>
+              <span class="weather-forecast-temperature-min">19°c</span>
+              <br>
+              </div><div class="col-2">
+              <strong class="weather-forecast-days">Monday </strong> <br>
+              <img src="./Vanilla Weather App Image_files/rain-day.png" alt="" id="icon" class="float-left" width="46px">
+              <br>
+              <span class="weather-forecast-temperature-max">32°c</span>
+              <br>
+              <span class="weather-forecast-temperature-min">19°c</span>
+              <br>
+              </div><div class="col-2">
+              <strong class="weather-forecast-days">Tuesday </strong> <br>
+              <img src="./Vanilla Weather App Image_files/rain-day.png" alt="" id="icon" class="float-left" width="46px">
+              <br>
+              <span class="weather-forecast-temperature-max">33°c</span>
+              <br>
+              <span class="weather-forecast-temperature-min">21°c</span>
+              <br>
+              </div></div></div>
+      </div>
+
+      <br>
+      <small>
+        <a href="https://github.com/Rolanda-Davids-97/Vanilla-Weather-App.git" target="_blank">
+          Open-source code</a>
+        by Rolanda Davids
+      </small>
+    </div>
+
+    <script src="./Vanilla Weather App Image_files/app.js"></script>
+  
+
+</body></html>
