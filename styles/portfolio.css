@@ -130,6 +130,9 @@ h3 {
   color: #eadbc8;
   text-decoration: none;
 }
+#email-link:hover {
+  color: black;
+}
 #name {
   display: flex;
   margin-bottom: 1rem;
@@ -245,7 +248,14 @@ nav a:hover,
 nav li.active a {
   color: black;
 }
-
+footer {
+  text-align: center;
+  margin: 50px;
+}
+footer.social-links a {
+  color: black;
+  margin: 0 30px;
+}
 @media (max-width: 600px) {
   h1 {
     text-align: left;
