@@ -228,7 +228,7 @@ button {
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 15px;
 }
 nav li {
   display: inline;
@@ -237,9 +237,10 @@ nav li {
   margin-left: 20px;
 }
 nav {
-  line-height: 2px;
-  padding: 30px 0;
+  line-height: 1px;
+  padding: 40px 0;
 }
+
 nav a {
   text-decoration: none;
   color: whitesmoke;
@@ -252,9 +253,17 @@ footer {
   text-align: center;
   margin: 50px;
 }
-footer.social-links a {
+footer a {
   color: black;
   margin: 0 30px;
+  background-color: #eadbc8;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
+footer a:hover {
+  color: #b0926a;
 }
 @media (max-width: 600px) {
   h1 {
@@ -305,6 +314,9 @@ footer.social-links a {
   }
   .img-fluid {
     display: none;
+  }
+  footer a {
+    padding: 5px 7px;
   }
 }
 @media (min-width: 200px) {
