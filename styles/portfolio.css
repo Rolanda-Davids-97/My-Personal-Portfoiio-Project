@@ -192,6 +192,34 @@ button {
 #projects-body {
   background-color: #b0926a;
 }
+#my-projects {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.Projects-heading {
+  color: #eadbc8;
+  font-size: 40px;
+  text-align: center;
+}
+.img-fluid {
+  width: 500px;
+  height: 300px;
+}
+.btn-branding-2 {
+  margin-top: 20px;
+  margin-left: 170px;
+  background: #eadbc8;
+  color: #b0926a;
+  font-size: 24px;
+  transition: 2s ease-in-out;
+  text-decoration: none;
+}
+#hire-button {
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+}
 @media (max-width: 600px) {
   h1 {
     text-align: left;
