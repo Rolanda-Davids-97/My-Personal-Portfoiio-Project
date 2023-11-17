@@ -21,7 +21,6 @@ h1 {
   font-weight: bolder;
   line-height: 1;
   padding: auto;
-  margin-top: 30px;
 }
 h2 {
   font-weight: normal;
@@ -32,11 +31,11 @@ h2 {
 h3 {
   font-weight: bold;
   font-size: 48px;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .btn-branding {
-  background: #4f4a45;
+  background-color: #b0926a;
   color: whitesmoke;
   font-size: 38px;
   transition: 3s ease-in-out;
@@ -79,12 +78,12 @@ h3 {
 }
 #myself {
   height: 630px;
-  margin-top: 200px;
+  margin-top: 100px;
   padding: auto;
   width: 500px;
 }
 #about-me {
-  margin-top: 100px;
+  margin-top: 1px;
 }
 #who-am-i {
   margin-top: 30px;
@@ -102,9 +101,12 @@ h3 {
 #contact-body {
   background-color: #b0926a;
 }
+.contact-me-container {
+  padding-top: 30px;
+}
 #lets-chat {
   font-size: 60px;
-  margin-top: 200px;
+  margin-top: 5px;
   text-align: center;
 }
 #tell-me-projects {
@@ -142,7 +144,7 @@ h3 {
 }
 #message-me {
   margin-left: 10px;
-  margin-top: 100px;
+  padding-top: 0px;
   font-size: 40px;
 }
 fieldset {
@@ -194,7 +196,7 @@ button {
 }
 #my-projects {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 .Projects-heading {
@@ -220,6 +222,30 @@ button {
   margin-top: 30px;
   text-align: center;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 4px;
+  margin-left: 20px;
+}
+nav {
+  line-height: 2px;
+  padding: 30px 0;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav a:hover,
+nav li.active a {
+  color: black;
+}
+
 @media (max-width: 600px) {
   h1 {
     text-align: left;
@@ -279,7 +305,7 @@ button {
   }
   #message-me {
     margin-left: 10px;
-    padding-top: 50px;
+    margin-top: 10px;
     font-size: 40px;
   }
   button {
