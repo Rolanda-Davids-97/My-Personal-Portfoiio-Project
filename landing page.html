@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Ribs Project1</title>
+  </head>
+  <style>
+    body {
+      background-image: linear-gradient(#454545 30%, #a27b5c 70%);
+    }
+
+    h1 {
+      text-align: center;
+      color: gainsboro;
+      font-weight: 250px;
+      font-size: 90px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-weight: 20px;
+      color: whitesmoke;
+      font-weight: 100px;
+      font-size: 35px;
+      margin: 5px;
+    }
+    ul {
+      list-style-type: none;
+      text-align: center;
+      color: white;
+      border: 2px solid white;
+      border-radius: 6px;
+      font-size: 30px;
+      margin: 10px auto;
+      padding: 10px auto;
+    }
+
+    li {
+      display: inline;
+      margin: 50px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      max-width: 40%;
+
+      border-radius: 4px;
+    }
+    p {
+      color: whitesmoke;
+      margin: 20px auto;
+      padding: 30px auto;
+      font-size: 25px;
+      line-height: 30px;
+    }
+    a {
+      text-decoration: none;
+      color: #f1a661;
+      font-size: 20px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    button {
+      display: block;
+      margin: 10px auto;
+      background: transparent;
+      color: whitesmoke;
+      font-size: 40px;
+      padding: 10px 10px;
+      border: 2px solid whitesmoke;
+      border-radius: 6px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.03);
+      transition: all 200px ease-in-out;
+    }
+    button:hover {
+      background: #a27b5c;
+      color: #454545;
+      cursor: pointer;
+    }
+    div {
+      text-align: center;
+    }
+    .coder {
+      color: white;
+    }
+  </style>
+  <body>
+    <h1><strong> Love Ribs</strong></h1>
+    <h2>Get your <em> GRUB</em> on</h2>
+    <ul>
+      <li>Fresh</li>
+      <li>Fast</li>
+      <li>Delicious</li>
+    </ul>
+
+    <hr />
+    <img
+      src=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/901/original/ribs.jpeg?1684076140"
+      alt="Food pic"
+    />
+    <hr />
+    <p>
+      Juicy melt-in-your-mouth oven baked Barbecue Ribs are fall-off-the-bone
+      delicious! Double up on incredible flavour with an easy to make dry rub
+      first, then coat them in a seasoned barbecue sauce mixture so addictive
+      you won’t stop at one! Finger licking good ribs right here!
+      <br />
+      <a href=" https://en.wikipedia.org/wiki/Ribs_(food)">
+        learn more on wikipedia
+      </a>
+    </p>
+    <button>Try oven Ribs Now</button>
+    <br />
+    <div>
+      <span>This page was built by </span>
+      <span class="coder"> Rolanda Davids </span>
+    </div>
+    <script>
+      function tryNow() {
+        let name = prompt("What is your name?");
+        if (name.length) {
+          alert(
+            "Thanks," +
+              name +
+              ", we will be in touch." +
+              " " +
+              "Meanwhile, have a lot of Ribs! "
+          );
+        } else {
+          alert("No name," + " " + "no Ribs for you!");
+        }
+      }
+      let tryButton = document.querySelector("button");
+      tryButton.addEventListener("click", tryNow);
+    </script>
+  </body>
+</html>

@@ -121,7 +121,8 @@ h3 {
   margin-top: 10px;
   padding-bottom: 5px;
 }
-#email-me {
+#email-me,
+#call-me {
   text-align: center;
   font-size: 30px;
   padding-top: 20px;
